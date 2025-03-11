@@ -1246,6 +1246,12 @@ figcaption {
     > .item {
       background-color: $background_def_gray;
       border-radius: $br;
+      overflow: hidden;
+      > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
 
       &:nth-child(1) {
         grid-column: 1 / 2; /* 1. sütunda */

@@ -1148,6 +1148,13 @@ figcaption {
 .index_part_3 > .wrap > .item {
   background-color: var(--p-background-def-gray);
   border-radius: 0.3rem;
+  overflow: hidden;
+}
+.index_part_3 > .wrap > .item > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .index_part_3 > .wrap > .item:nth-child(1) {
   grid-column: 1/2; /* 1. sütunda */
