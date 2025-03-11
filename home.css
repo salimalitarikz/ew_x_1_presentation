@@ -257,7 +257,6 @@ nav > #menu_button * {
   background-color: transparent;
   z-index: 9;
   animation: start_loading_page_an 2s ease-out forwards;
-  display: none !important;
 }
 @keyframes start_loading_page_an {
   0% {

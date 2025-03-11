@@ -328,7 +328,7 @@ svg {
   animation: start_loading_page_an $start_an_duration ease-out forwards;
 
   // JUST FOR NOW \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-  display: none !important;
+//   display: none !important;
 
   @keyframes start_loading_page_an {
     0% {
