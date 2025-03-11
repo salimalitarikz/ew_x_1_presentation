@@ -328,7 +328,7 @@ svg {
   animation: start_loading_page_an $start_an_duration ease-out forwards;
 
   // JUST FOR NOW \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-//   display: none !important;
+  //   display: none !important;
 
   @keyframes start_loading_page_an {
     0% {
@@ -612,6 +612,7 @@ footer {
   padding: 1rem;
   position: relative;
   overflow: hidden;
+  overflow-x: hidden !important;
   z-index: 1;
   margin-top: auto;
 
@@ -636,6 +637,7 @@ footer {
     > h2 {
       font-size: 2.1rem;
       display: inline;
+      text-align: center;
 
       > a {
         display: inline-flex;
@@ -766,8 +768,13 @@ footer {
 
       > h2 {
         font-size: 2.2rem;
-        display: inline;
         text-align: center;
+        width: 90%;
+        > * {
+          text-align: center;
+          justify-content: center;
+          display: inline !important;
+        }
 
         &:nth-child(1) {
           /*font-size:2.4rem;*/
